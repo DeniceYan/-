@@ -1,0 +1,55 @@
+
+*{ padding: 0; margin: 0; }
+li{
+list-style: circle inside url(../img/circle_yellow.png);
+}
+.menu{
+width: 540px;
+padding: 10px 5px;
+overflow: hidden;
+border: 1px solid #ddd;
+margin: 100px auto;
+}
+.menu h3{
+text-indent: 20px;
+margin-bottom: 10px;
+}
+.container{
+position: relative;
+width: 500px;
+height: 400px;
+overflow: hidden;
+margin: 0 auto;
+}
+.content{
+position: absolute;
+left: 0;
+top: 5px;
+width: 480px;
+}
+.wrap-bar{
+position: absolute;
+right: 5px;
+top: 5px;
+width: 5px;
+height: 390px;
+background-color: #d9d9d9;
+z-index: 5;
+}
+.bar{
+display: block;s
+position: absolute;
+left: -2px;
+top: 0;
+width: 8px;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+-ms-border-radius: 4px;
+-0-border-radius: 4px;
+background-color: #666;
+/*behavior: url(./js/ie-css3.htc);*/ // 兼容IE8及以下的IE浏览器
+}
+.hidden{
+display: none;
+}
